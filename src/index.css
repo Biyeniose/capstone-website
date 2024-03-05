@@ -8,3 +8,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tailwind example for medium devices (using Tailwind's breakpoints) */
+@media (min-width: 768px) {
+    .md\:flex {
+        display: flex;
+    }
+}
+
+/* Custom media query example */
+@media (max-width: 768px) {
+    .App-header {
+        /* Styles for smaller devices */
+    }
+}
