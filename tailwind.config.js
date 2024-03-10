@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Space Mono']
+        body: ['Space Mono'],
+        inter: ['Inter'],
+        inter_t: ['Inter Tight'],
+        andika: ['Andika'],
+        sulphur: ['Sulphur Point']
       }
     },
   },
