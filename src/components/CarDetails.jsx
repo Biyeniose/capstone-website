@@ -30,7 +30,7 @@ function CarDetails() {
 
   return (
     <div className="bg-white font-inter_t p-6 shadow-md rounded-lg mt-4 mb-4">
-      <h2 className="text-lg font-semibold mb-2">Vehicles</h2>
+      <h2 className="text-lg font-semibold mb-2">Vehicless</h2>
       <div className="space-y-1">
         <p><span className="font-medium">Owner:</span> {owner}</p>
         <p><span className="font-medium">Brand:</span> {brand}</p>
