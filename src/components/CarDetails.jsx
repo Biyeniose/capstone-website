@@ -12,7 +12,7 @@ function CarDetails() {
     // Function to fetch vehicle data
     const fetchVehicleData = async () => {
       try {
-        const response = await fetch('/Vehicles/65ceda3bb00beec5fba62218');
+        const response = await fetch('https://vg02capstone.cyclic.app/Vehicles/65b330f3000bb6dcce6a6c45');
         const vehicle = await response.json();
         // Update state variables with the vehicle data
         setOwner(vehicle.owner || '');
