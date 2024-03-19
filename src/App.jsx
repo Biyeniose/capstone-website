@@ -5,8 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './components/About';
 import CarDetails from './components/CarDetails';
-import MessiInfoPage from './components/MessiInfoPage';
-import Demo from './components/Demo';
+import Images from './components/Images';
 import Team from './components/Team'
 //importing react browser breaks the code
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -21,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<CarDetails />} />
           <Route path="/about" element={<About />} />
-          <Route path="/demo" element={<Demo />} />
+          <Route path="/images" element={<Images />} />
           <Route path="/team" element={<Team />} />
         </Routes>
         <Footer />

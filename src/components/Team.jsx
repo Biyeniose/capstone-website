@@ -3,7 +3,7 @@ import Card from './Card';
 
 const Team = () => {
     return (
-        <div className="flex flex-wrap justify-center items-start max-w-screen-lg mx-auto">
+        <div className="flex flex-wrap justify-center items-center max-w-screen-lg mx-auto">
             <Card 
                 name="Mohib Khan" 
                 degree="Comp Eng" 
@@ -26,7 +26,7 @@ const Team = () => {
             />
 
         </div>
-    );
+    );//flex justify-center items-center h-screen
 }
 
 export default Team;

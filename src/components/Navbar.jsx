@@ -22,8 +22,8 @@ const Navbar = () => {
               <a href="/about" className="py-4 font-bold px-2 text-gray-300 no-underline hover:text-green-400">
                 About
               </a>
-              <a href="/demo" className="py-4 font-bold px-2 text-gray-300 no-underline hover:text-green-400">
-                Demo
+              <a href="/images" className="py-4 font-bold px-2 text-gray-300 no-underline hover:text-green-400">
+                Images
               </a>
               <a href="/team" className="py-4 font-bold px-2 text-gray-300 no-underline hover:text-green-400">
                 Team
