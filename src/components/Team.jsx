@@ -7,7 +7,7 @@ const Team = () => {
             <Card 
                 name="Mohib Khan" 
                 degree="Comp Eng" 
-                linkedin="https://linkedin.com/in/biyeniose-o-864450a7" 
+                linkedin="https://www.linkedin.com/in/mohibuk" 
             />
             <Card 
                 name="BJ Onyeagwu" 
