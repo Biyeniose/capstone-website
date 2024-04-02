@@ -9,7 +9,8 @@ function CarDetails() {
     // Function to fetch vehicles data
     const fetchVehiclesData = async () => {
       try {
-        const response = await fetch('https://vg02capstone.cyclic.app/Vehicles'); // Adjusted URL to fetch an array of vehicles
+        //const response = await fetch('https://vg02capstone.cyclic.app/Vehicles'); // Adjusted URL to fetch an array of vehicles
+        const response = await fetch('https://vg02-63d7450628e1.herokuapp.com/Vehicles');
         const vehiclesArray = await response.json();
         // Update state variable with the vehicles data
         setVehicles(vehiclesArray || []);

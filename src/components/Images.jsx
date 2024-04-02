@@ -2,7 +2,7 @@ import React from 'react';
 
 const Images = () => {
 
-    const imageUrl = "https://vg02capstone.cyclic.app/images/65f4943e452607045662e92b";
+    const imageUrl = "https://vg02-63d7450628e1.herokuapp.com/images/latest";
 
     return (
         <div className="flex flex-col justify-center items-center h-screen">
