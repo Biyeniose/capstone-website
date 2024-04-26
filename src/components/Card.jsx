@@ -6,7 +6,8 @@ function Card({ name, degree, linkedin }) {
       <h1 className="text-2xl font-bold mb-3">{name}</h1>
       <p className="text-lg">Degree: {degree}</p>
       <p className="text-lg">
-        LinkedIn: <a href={linkedin} className="text-blue-500 hover:text-blue-700" target="_blank" rel="noopener noreferrer">{linkedin}</a>
+        LinkedIn: <a href={linkedin} className="text-blue-500 hover:text-blue-700" target="_blank" 
+                  rel="noopener noreferrer">{linkedin}</a>
       </p>
     </div>
   );

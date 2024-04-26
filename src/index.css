@@ -31,3 +31,25 @@
     }
 }
 
+.centered-div {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%; /* You may need to set a specific height or use the full height */
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #app { /* assuming your root div has an id of 'app' */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .footer { /* apply this class to your footer */
+    margin-top: auto !important;
+  }
+  

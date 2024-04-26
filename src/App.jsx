@@ -24,7 +24,7 @@ function App() {
           <Route path="/images" element={<Images />} />
           <Route path="/team" element={<Team />} />
         </Routes>
-        <Footer />
+        <Footer className="footer" />
       </div>
       </div>
     </Router>
