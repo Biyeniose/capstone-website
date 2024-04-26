@@ -33,14 +33,14 @@ const Images = () => {
     // Polling for the latest timestamp
     useEffect(() => {
         fetchLatestTimestamp();
-        const intervalId = setInterval(fetchLatestTimestamp, 4000); // Poll every 3 seconds
+        const intervalId = setInterval(fetchLatestTimestamp, 2800); // Poll every 3 seconds
         return () => clearInterval(intervalId); // Cleanup the interval on component unmount
     }, []);
 
     // Polling for the three additional images
     useEffect(() => {
         fetchAdditionalImages();
-        const intervalId = setInterval(fetchAdditionalImages, 4000); // Poll every 3 seconds
+        const intervalId = setInterval(fetchAdditionalImages, 2800); // Poll every 3 seconds
         return () => clearInterval(intervalId); // Cleanup the interval on component unmount
     }, []);
 
